@@ -6,24 +6,36 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/MainMenu.unity
+    path: Assets/Scenes/MainMenu.unity
     guid: 3923496d1df4e4a3ca0a282ee078b175
   - enabled: 1
-    path: Assets/BreathScreen.unity
+    path: Assets/PolarStuff/PolarBreathScreen.unity
     guid: ea95e703ad49abc4993ec1c9c738e0c9
   - enabled: 1
-    path: Assets/PolarBearExhibit.unity
+    path: Assets/PolarStuff/PolarBearExhibit.unity
     guid: 64cfe983b4aaa4308954a4a5e36471c1
   - enabled: 1
-    path: Assets/MainMap.unity
-    guid: 5c5a9d0ee68627a4abe27c86b6bd6843
-  - enabled: 1
-    path: Assets/Settings.unity
+    path: Assets/Scenes/Settings.unity
     guid: c1244b4d7ec01492dbbc0d3d906eabe9
   - enabled: 1
-    path: Assets/Customize.unity
+    path: Assets/Scenes/Customize.unity
     guid: a0d338c0c3596461dba2e701830c3437
   - enabled: 1
-    path: Assets/Settings.unity
+    path: Assets/Scenes/Settings.unity
     guid: c1244b4d7ec01492dbbc0d3d906eabe9
+  - enabled: 1
+    path: Assets/ElephantStuff/ElephantExhibit.unity
+    guid: 5fbd664982eacc94986d5f967b3da6d3
+  - enabled: 1
+    path: Assets/Scenes/MainMap.unity
+    guid: 8fca34546dc4541c9a98ad79ce6bc1c8
+  - enabled: 1
+    path: Assets/ElephantStuff/ElephantBreatheScreen.unity
+    guid: 22add8c2f0171ef4ca9cce449b503a02
+  - enabled: 1
+    path: Assets/WolfStuff/WolfBreatheScreen.unity
+    guid: 7aaaf428027e7f145baf024b749883a5
+  - enabled: 1
+    path: Assets/WolfStuff/WolfExhibit.unity
+    guid: b11bcdcb4ab225b48ba37acc7abd80f6
   m_configObjects: {}
