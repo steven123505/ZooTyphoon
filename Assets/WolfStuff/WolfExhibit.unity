@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 0655dd55b53b83e49ac61a32de1aeb23, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -225,37 +225,37 @@ PrefabInstance:
     - target: {fileID: 5744277171742241047, guid: fdaca1a7059374d80b8bfbb0c1a20845,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -51.9
+      value: -50.6
       objectReference: {fileID: 0}
     - target: {fileID: 5744277171742241047, guid: fdaca1a7059374d80b8bfbb0c1a20845,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.5
+      value: -2.2
       objectReference: {fileID: 0}
     - target: {fileID: 5744277171742241047, guid: fdaca1a7059374d80b8bfbb0c1a20845,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 32.1
+      value: 31.9
       objectReference: {fileID: 0}
     - target: {fileID: 5744277171742241047, guid: fdaca1a7059374d80b8bfbb0c1a20845,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5744277171742241047, guid: fdaca1a7059374d80b8bfbb0c1a20845,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.09873051
       objectReference: {fileID: 0}
     - target: {fileID: 5744277171742241047, guid: fdaca1a7059374d80b8bfbb0c1a20845,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5744277171742241047, guid: fdaca1a7059374d80b8bfbb0c1a20845,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.99511427
       objectReference: {fileID: 0}
     - target: {fileID: 5744277171742241047, guid: fdaca1a7059374d80b8bfbb0c1a20845,
         type: 3}
@@ -270,7 +270,7 @@ PrefabInstance:
     - target: {fileID: 5744277171742241047, guid: fdaca1a7059374d80b8bfbb0c1a20845,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 11.332001
       objectReference: {fileID: 0}
     - target: {fileID: 5744277171742241047, guid: fdaca1a7059374d80b8bfbb0c1a20845,
         type: 3}
@@ -1158,7 +1158,7 @@ RectTransform:
   m_GameObject: {fileID: 292548299}
   m_LocalRotation: {x: 0, y: 0, z: 0.08715578, w: 0.9961947}
   m_LocalPosition: {x: 0, y: 0, z: 21}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 1306870063}
   m_Father: {fileID: 745087200}
@@ -1166,7 +1166,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 10}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 252, y: 51}
+  m_AnchoredPosition: {x: 287, y: -10}
   m_SizeDelta: {x: 180, y: 160}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &292548301
@@ -1474,28 +1474,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 658221480}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1302057983}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 1179126088}
         m_MethodName: WolfLoadScene
         m_Mode: 5
@@ -2127,7 +2105,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: -214, y: 350}
-  m_SizeDelta: {x: 270, y: 80}
+  m_SizeDelta: {x: 280, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &464737972
 MonoBehaviour:
@@ -2161,7 +2139,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pick an item to put in Wolfgang's exhibit!
+  m_Text: Pick an item to put in Wally's exhibit!
 --- !u!222 &464737973
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2252,17 +2230,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1501611111}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 1179126088}
         m_MethodName: WolfLoadScene
         m_Mode: 5
@@ -2455,7 +2422,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: -221, y: 306}
-  m_SizeDelta: {x: 400, y: 210}
+  m_SizeDelta: {x: 450, y: 225}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &557109743
 MonoBehaviour:
@@ -3208,12 +3175,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -3336,7 +3303,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 642, y: 541}
+  m_AnchoredPosition: {x: 615, y: 541}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &855685821
@@ -5571,17 +5538,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 356402564}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 1179126088}
         m_MethodName: WolfLoadScene
         m_Mode: 5
@@ -6137,7 +6093,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 4b6c16c8bf29c9e40bc66796d0674b6e, type: 2}
+      objectReference: {fileID: 2100000, guid: 48b31daa83ddb854fadd9402702394e4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 762a70134cf944033a4493fa187fa840, type: 3}
 --- !u!1 &1736888131
@@ -6243,6 +6199,25 @@ MonoBehaviour:
   speed: 6
   rotationSpeed: 2.5
   big_shrub_clicked: 0
+--- !u!95 &1739733766
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739733764}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fc63e01b748907c40a1e26e2cd44eca5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1750927925
 GameObject:
   m_ObjectHideFlags: 0
@@ -7528,8 +7503,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -104, y: 71}
-  m_SizeDelta: {x: 131, y: 150}
+  m_AnchoredPosition: {x: -132.3999, y: 47.30005}
+  m_SizeDelta: {x: 150, y: 181}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &2137009074
 MonoBehaviour:

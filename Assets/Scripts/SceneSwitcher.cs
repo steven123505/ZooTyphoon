@@ -44,6 +44,7 @@ public class SceneSwitcher : MonoBehaviour
     {
         //if (!initialized) Init();
         //loadedLevels.Push(GetActiveScene().buildIndex);
+        LoadScene(sceneName);
 
         if (EventSystem.current.currentSelectedGameObject.name == "Meat")
         {
@@ -58,7 +59,7 @@ public class SceneSwitcher : MonoBehaviour
             PlayerPrefs.SetInt("ball", 1);
         }
 
-        LoadScene(sceneName);
+        
         //UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
     }
 

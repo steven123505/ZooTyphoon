@@ -603,12 +603,12 @@ AnimatorStateMachine:
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions:
-  - first: {fileID: 3510468306627941662}
-    second:
-    - {fileID: 7746058857785121256}
   - first: {fileID: 2259086335372659818}
     second:
     - {fileID: -8830137277994135447}
+  - first: {fileID: 3510468306627941662}
+    second:
+    - {fileID: 7746058857785121256}
   m_StateMachineBehaviours:
   - {fileID: -2629764930149259832}
   m_AnyStatePosition: {x: -130, y: -170, z: 0}
@@ -692,25 +692,25 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: in_range_of_plant
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: in_lake_range
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: activation_number
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: -1
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer

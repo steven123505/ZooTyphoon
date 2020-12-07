@@ -13,7 +13,7 @@ public class wolfSaver : MonoBehaviour
     public GameObject ball;
 
     // Update is called once per frame
-    void Update()
+    void Start()
     {
 
         // For each object that the player can activate, set them as active iff the global var is active
